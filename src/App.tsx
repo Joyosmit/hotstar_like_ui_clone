@@ -8,6 +8,7 @@ const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       staleTime: 5 * 60 * 1000,
+      // @ts-ignore
       cacheTime: 10 * 60 * 1000,
     },
   },
